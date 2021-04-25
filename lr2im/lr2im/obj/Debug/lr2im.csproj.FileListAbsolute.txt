@@ -1,0 +1,10 @@
+C:\Users\bogdan\source\repos\lr2im\lr2im\bin\Debug\lr2im.exe.config
+C:\Users\bogdan\source\repos\lr2im\lr2im\bin\Debug\lr2im.exe
+C:\Users\bogdan\source\repos\lr2im\lr2im\bin\Debug\lr2im.pdb
+C:\Users\bogdan\source\repos\lr2im\lr2im\obj\Debug\lr2im.csprojAssemblyReference.cache
+C:\Users\bogdan\source\repos\lr2im\lr2im\obj\Debug\lr2im.Form1.resources
+C:\Users\bogdan\source\repos\lr2im\lr2im\obj\Debug\lr2im.Properties.Resources.resources
+C:\Users\bogdan\source\repos\lr2im\lr2im\obj\Debug\lr2im.csproj.GenerateResource.cache
+C:\Users\bogdan\source\repos\lr2im\lr2im\obj\Debug\lr2im.csproj.CoreCompileInputs.cache
+C:\Users\bogdan\source\repos\lr2im\lr2im\obj\Debug\lr2im.exe
+C:\Users\bogdan\source\repos\lr2im\lr2im\obj\Debug\lr2im.pdb
