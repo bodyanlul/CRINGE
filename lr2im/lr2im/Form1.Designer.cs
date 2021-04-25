@@ -41,6 +41,13 @@ namespace lr2im
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.Time1 = new System.Windows.Forms.Label();
+            this.Time2 = new System.Windows.Forms.Label();
+            this.Count1 = new System.Windows.Forms.Label();
+            this.Count2 = new System.Windows.Forms.Label();
+            this.Chance1 = new System.Windows.Forms.Label();
+            this.Chance2 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -64,45 +71,50 @@ namespace lr2im
             // AvgLoadM
             // 
             this.AvgLoadM.AutoSize = true;
+            this.AvgLoadM.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.AvgLoadM.Location = new System.Drawing.Point(272, 38);
             this.AvgLoadM.Name = "AvgLoadM";
-            this.AvgLoadM.Size = new System.Drawing.Size(35, 13);
+            this.AvgLoadM.Size = new System.Drawing.Size(41, 13);
             this.AvgLoadM.TabIndex = 2;
             this.AvgLoadM.Text = "label1";
             // 
             // AvgLoadP
             // 
             this.AvgLoadP.AutoSize = true;
+            this.AvgLoadP.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.AvgLoadP.Location = new System.Drawing.Point(272, 64);
             this.AvgLoadP.Name = "AvgLoadP";
-            this.AvgLoadP.Size = new System.Drawing.Size(35, 13);
+            this.AvgLoadP.Size = new System.Drawing.Size(41, 13);
             this.AvgLoadP.TabIndex = 3;
             this.AvgLoadP.Text = "label1";
             // 
             // AvgTime
             // 
             this.AvgTime.AutoSize = true;
+            this.AvgTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.AvgTime.Location = new System.Drawing.Point(272, 92);
             this.AvgTime.Name = "AvgTime";
-            this.AvgTime.Size = new System.Drawing.Size(35, 13);
+            this.AvgTime.Size = new System.Drawing.Size(41, 13);
             this.AvgTime.TabIndex = 4;
             this.AvgTime.Text = "label1";
             // 
             // Chance
             // 
             this.Chance.AutoSize = true;
+            this.Chance.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Chance.Location = new System.Drawing.Point(272, 119);
             this.Chance.Name = "Chance";
-            this.Chance.Size = new System.Drawing.Size(35, 13);
+            this.Chance.Size = new System.Drawing.Size(41, 13);
             this.Chance.TabIndex = 5;
             this.Chance.Text = "label1";
             // 
             // AvgCount
             // 
             this.AvgCount.AutoSize = true;
+            this.AvgCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.AvgCount.Location = new System.Drawing.Point(272, 147);
             this.AvgCount.Name = "AvgCount";
-            this.AvgCount.Size = new System.Drawing.Size(35, 13);
+            this.AvgCount.Size = new System.Drawing.Size(41, 13);
             this.AvgCount.TabIndex = 6;
             this.AvgCount.Text = "label1";
             // 
@@ -129,9 +141,9 @@ namespace lr2im
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(37, 92);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(141, 13);
+            this.label3.Size = new System.Drawing.Size(200, 13);
             this.label3.TabIndex = 9;
-            this.label3.Text = "Среднее время обработки";
+            this.label3.Text = "Среднее время обработки (в минутах)";
             // 
             // label4
             // 
@@ -151,11 +163,81 @@ namespace lr2im
             this.label5.TabIndex = 11;
             this.label5.Text = "Среднее число обработанных деталей";
             // 
+            // Time1
+            // 
+            this.Time1.AutoSize = true;
+            this.Time1.Location = new System.Drawing.Point(461, 92);
+            this.Time1.Name = "Time1";
+            this.Time1.Size = new System.Drawing.Size(35, 13);
+            this.Time1.TabIndex = 12;
+            this.Time1.Text = "label6";
+            // 
+            // Time2
+            // 
+            this.Time2.AutoSize = true;
+            this.Time2.Location = new System.Drawing.Point(639, 92);
+            this.Time2.Name = "Time2";
+            this.Time2.Size = new System.Drawing.Size(35, 13);
+            this.Time2.TabIndex = 13;
+            this.Time2.Text = "label6";
+            // 
+            // Count1
+            // 
+            this.Count1.AutoSize = true;
+            this.Count1.Location = new System.Drawing.Point(461, 147);
+            this.Count1.Name = "Count1";
+            this.Count1.Size = new System.Drawing.Size(35, 13);
+            this.Count1.TabIndex = 14;
+            this.Count1.Text = "label1";
+            // 
+            // Count2
+            // 
+            this.Count2.AutoSize = true;
+            this.Count2.Location = new System.Drawing.Point(639, 147);
+            this.Count2.Name = "Count2";
+            this.Count2.Size = new System.Drawing.Size(35, 13);
+            this.Count2.TabIndex = 15;
+            this.Count2.Text = "label1";
+            // 
+            // Chance1
+            // 
+            this.Chance1.AutoSize = true;
+            this.Chance1.Location = new System.Drawing.Point(461, 119);
+            this.Chance1.Name = "Chance1";
+            this.Chance1.Size = new System.Drawing.Size(35, 13);
+            this.Chance1.TabIndex = 16;
+            this.Chance1.Text = "label6";
+            // 
+            // Chance2
+            // 
+            this.Chance2.AutoSize = true;
+            this.Chance2.Location = new System.Drawing.Point(639, 119);
+            this.Chance2.Name = "Chance2";
+            this.Chance2.Size = new System.Drawing.Size(35, 13);
+            this.Chance2.TabIndex = 17;
+            this.Chance2.Text = "label6";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(503, 202);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(163, 13);
+            this.label6.TabIndex = 18;
+            this.label6.Text = "Время моделирования в часах";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(801, 232);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.Chance2);
+            this.Controls.Add(this.Chance1);
+            this.Controls.Add(this.Count2);
+            this.Controls.Add(this.Count1);
+            this.Controls.Add(this.Time2);
+            this.Controls.Add(this.Time1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -169,7 +251,7 @@ namespace lr2im
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Моделирование";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -189,6 +271,13 @@ namespace lr2im
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label Time1;
+        private System.Windows.Forms.Label Time2;
+        private System.Windows.Forms.Label Count1;
+        private System.Windows.Forms.Label Count2;
+        private System.Windows.Forms.Label Chance1;
+        private System.Windows.Forms.Label Chance2;
+        private System.Windows.Forms.Label label6;
     }
 }
 
